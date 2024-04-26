@@ -28,6 +28,11 @@ class testTest {
 		assertEquals(Test.generate(3),"Fizz");
 	}
 	
+	@Test
+	void FizzAvec6() {
+		assertEquals(Test.generate(6),"Fizz");
+	}
+	
 	
 
 }
