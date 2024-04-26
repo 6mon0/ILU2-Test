@@ -38,6 +38,12 @@ class testTest {
 		assertEquals(Test.generate(5),"Buzz");
 	}
 	
+	@Test
+	void FizzAvec10() {
+		assertEquals(Test.generate(10),"Buzz");
+	}
+	
+	
 	
 
 }
